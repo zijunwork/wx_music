@@ -1,0 +1,21 @@
+/* pages/home/home.wxss */
+.home-swiper .swiper-img {
+  width: 100%;
+}
+
+.home-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.play-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 224rpx;
+  height: 284rpx;
+  margin-top: 20rpx;
+  position: relative;
+}

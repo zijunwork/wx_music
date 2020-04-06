@@ -1,0 +1,8 @@
+<view class="play-item">
+	<image src="{{propItem.url}}" class="item-img"></image>
+	<view class="play-title">{{propItem.title}}</view>
+	<view class="play-count">
+		<image class="item-tag" src="../../images/play_tag.png"></image>
+		<text class="item-count">{{count}}</text>
+	</view>
+</view>

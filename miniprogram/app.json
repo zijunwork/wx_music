@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/blog/blog",
+    "pages/profile/profile",
+    "pages/out/out"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D81E06",
+    "navigationBarTitleText": "音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#BFBFBF",
+    "selectedColor": "#D81E06",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "音乐",
+        "iconPath": "./images/tab_1.png",
+        "selectedIconPath": "./images/tab_1_se.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "发现",
+        "iconPath": "./images/tab_2.png",
+        "selectedIconPath": "./images/tab_2_se.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "./images/tab_3.png",
+        "selectedIconPath": "./images/tab_3_se.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
